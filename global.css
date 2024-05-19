@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+	--color-0: #F2E8CF;
+	--color-1: #BC4749;
+	--color-2: #386641;
+	--color-3: #6A994E;
+	--color-4: #A7C957;
+}
+
+.bg0 {
+	background-color: var(--color-0);
+}
+
+.clr0 {
+	color: var(--color-0);
+}
+
+.bc0 {
+	border-color: var(--color-0);
+}
+
+.bg1 {
+	background-color: var(--color-1);
+}
+
+.clr1 {
+	color: var(--color-1);
+}
+
+.bc1 {
+	border-color: var(--color-1);
+}
+
+.bg2 {
+	background-color: var(--color-2);
+}
+
+.clr2 {
+	color: var(--color-2);
+}
+
+.bc2 {
+	border-color: var(--color-2);
+}
+
+.bg3 {
+	background-color: var(--color-3);
+}
+
+.clr3 {
+	color: var(--color-3);
+}
+
+.bc3 {
+	border-color: var(--color-3);
+}
+
+.bg4 {
+	background-color: var(--color-4);
+}
+
+.clr4 {
+	color: var(--color-4);
+}
+
+.bc4 {
+	border-color: var(--color-4);
+}
+
+.has-bg-shape {
+	margin-bottom: 0;
+}
+
+.bg-shape {
+	position: relative;
+	top: -2px;
+	display: block;
+	margin-bottom: -2px;
+}
+
+.white-image {
+	-webkit-filter: invert(1) brightness(5);
+	filter: invert(1) brightness(5);
+}
+
+/* Reset styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+/* Set default font to Roboto */
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	line-height: 1.6;
+	color: #333;
+	background-color: var(--color-bg);
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+.serif,
+h1,
+h2,
+h3 {
+	font-family: "Libre Baskerville", serif;
+}
+
+h4,
+h5,
+h6 {
+	font-family: "Roboto", sans-serif;
+}
+
+.wrap {
+	padding: 0 2vw;
+}
+
+a {
+	color: inherit;
+}
+
+button {
+	/* reset button styles */
+	border: none;
+	background: none;
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.8)
+}
