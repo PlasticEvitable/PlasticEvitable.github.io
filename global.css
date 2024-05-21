@@ -85,6 +85,10 @@
 	filter: invert(1) brightness(5);
 }
 
+.maa {
+	margin: auto;
+}
+
 /* Reset styles */
 body,
 h1,
